@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 cd $1
-php app/console doctrine:migrations:migrate -n
+/app/.heroku/php/bin/php app/console doctrine:migrations:migrate -n
 
